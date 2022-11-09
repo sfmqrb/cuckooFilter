@@ -1,6 +1,5 @@
 package cuckoo;
 
-import java.awt.*;
 import java.util.Arrays;
 import java.io.*;
 import java.util.Scanner;
@@ -11,7 +10,7 @@ public class Main {
         System.out.println("Cuckoo");
 
         Test test = new Test();
-        test.genRandomByteArr();
+        test.getData();
         test.insertAll();
         test.lookupAll();
         test.removeAll();
@@ -19,7 +18,7 @@ public class Main {
 }
 
 final class CONFIGS {
-    static int bucketAddressSpace = 16; // 2^16 buckets
+    static int bucketAddressSpace = 22; // 2^16 buckets
     static int bucketFullOne = (int) Math.pow(2, bucketAddressSpace) - 1;
     static int bucketSize = 16; // 2^16 * 2^4 = 1MB cuckoo size
     static int maxNumKicks = 500;
@@ -205,15 +204,16 @@ class Test {
         cuckoo = new Cuckoo();
     }
 
-    public void genRandomByteArr() {
-        int n = 100;
-        result = new byte[n][];
+    public void getData() {
+        int n = 1000000;
+        result = new byte[CONFIGS.numOfSamples][];
         File file = new File("./sample.txt");
         if (!file.exists()) {
             try {
+                System.out.println("generating data ...");
                 file.createNewFile();
                 PrintWriter out = new PrintWriter(file.getPath());
-                for (byte[] data: result) {
+                for (int i = 0; i < n; i++) {
                     int lenOfByteArr = getRandomWithinRange(3, CONFIGS.maxSampleBytesLen);
                     out.println(RandomString.getAlphaNumericString(lenOfByteArr));
                 }
@@ -222,18 +222,20 @@ class Test {
                 System.out.println("An error occurred!");
                 e.printStackTrace();
             }
-        } else {
-            try {
-                Scanner scanner = new Scanner(file);
-                for (int k = 0; k < n; k++) {
-                    byte[] data = scanner.nextLine().getBytes("ASCII");
-                    System.out.println(Arrays.toString(data));
-                }
-            } catch (IOException e) {
-                System.out.println("An error occurred!");
-                e.printStackTrace();
-            }
         }
+
+        try {
+            System.out.println("reading data ...");
+            Scanner scanner = new Scanner(file);
+            for (int k = 0; k < CONFIGS.numOfSamples; k++) {
+                byte[] data = scanner.nextLine().getBytes("ASCII");
+                result[k] = data;
+            }
+        } catch (IOException e) {
+            System.out.println("An error occurred!");
+            e.printStackTrace();
+        }
+
     }
 
     public void insertAll() {
@@ -290,8 +292,7 @@ class Test {
 }
 
 class RandomString {
-    static String getAlphaNumericString(int n)
-    {
+    static String getAlphaNumericString(int n) {
         String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                 + "0123456789"
                 + "abcdefghijklmnopqrstuvxyz";
@@ -300,7 +301,7 @@ class RandomString {
 
         for (int i = 0; i < n; i++) {
             int index
-                    = (int)(AlphaNumericString.length()
+                    = (int) (AlphaNumericString.length()
                     * Math.random());
 
             sb.append(AlphaNumericString
