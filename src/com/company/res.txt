@@ -1,0 +1,2809 @@
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+generating data ...
+insert was not successful
+lookup 8 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 6 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 4 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 8 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 4 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 4 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 4 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 3 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 3 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 3 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 4 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 3 ms
+remove was not successful
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 5 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 5 ms
+lookup 3 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 5 ms
+lookup 4 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 7 ms
+lookup 3 ms
+remove 9 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 6 ms
+lookup 3 ms
+remove 8 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 5 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 5 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 5 ms
+lookup 3 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 6 ms
+lookup 3 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 6 ms
+lookup 3 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 5 ms
+lookup 3 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 5 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 6 ms
+lookup 3 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 5 ms
+lookup 3 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 6 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 6 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 7 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 6 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 7 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 7 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 6 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 6 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 6 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 6 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 7 ms
+lookup 4 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 7 ms
+lookup 3 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 8 ms
+lookup 5 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 8 ms
+lookup 5 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 8 ms
+lookup 4 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 8 ms
+lookup 5 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 8 ms
+lookup 5 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 8 ms
+lookup 5 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 9 ms
+lookup 4 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 8 ms
+lookup 4 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 8 ms
+lookup 5 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 8 ms
+lookup 5 ms
+remove 5 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 8 ms
+lookup 5 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 8 ms
+lookup 5 ms
+remove 6 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 11 ms
+lookup 9 ms
+remove 9 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 11 ms
+lookup 8 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 12 ms
+lookup 9 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 12 ms
+lookup 8 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 11 ms
+lookup 9 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 11 ms
+lookup 8 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 12 ms
+lookup 9 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 12 ms
+lookup 8 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 12 ms
+lookup 8 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 12 ms
+lookup 8 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 12 ms
+lookup 8 ms
+remove 10 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 11 ms
+lookup 9 ms
+remove 9 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 17 ms
+lookup 17 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 18 ms
+lookup 17 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 19 ms
+lookup 18 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 18 ms
+lookup 17 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 23 ms
+lookup 19 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 18 ms
+lookup 17 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 18 ms
+lookup 18 ms
+remove 16 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 18 ms
+lookup 18 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 17 ms
+lookup 18 ms
+remove 18 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 19 ms
+lookup 18 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 19 ms
+lookup 17 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 18 ms
+lookup 18 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 19 ms
+lookup 19 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 19 ms
+lookup 19 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 20 ms
+lookup 19 ms
+remove 18 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 21 ms
+lookup 18 ms
+remove 18 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 20 ms
+lookup 19 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 20 ms
+lookup 18 ms
+remove 18 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 21 ms
+lookup 18 ms
+remove 18 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 19 ms
+lookup 18 ms
+remove 18 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 20 ms
+lookup 19 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 20 ms
+lookup 18 ms
+remove 17 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 21 ms
+lookup 18 ms
+remove 18 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 21 ms
+lookup 18 ms
+remove 18 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 22 ms
+lookup 20 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 22 ms
+lookup 19 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 27 ms
+lookup 22 ms
+remove 22 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 23 ms
+lookup 20 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 23 ms
+lookup 19 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 22 ms
+lookup 20 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 22 ms
+lookup 19 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 21 ms
+lookup 20 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 22 ms
+lookup 19 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 23 ms
+lookup 19 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 23 ms
+lookup 19 ms
+remove 19 ms
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 22 ms
+lookup 20 ms
+remove 18 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 40 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 36 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 36 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 37 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup 39 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup 38 ms
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert was not successful
+lookup was not successful
+remove was not successful
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 76 ms
+lookup 45 ms
+remove 72 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 77 ms
+lookup 46 ms
+remove 71 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 76 ms
+lookup 46 ms
+remove 72 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 75 ms
+lookup 46 ms
+remove 72 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 76 ms
+lookup 48 ms
+remove 72 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 76 ms
+lookup 45 ms
+remove 72 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 77 ms
+lookup 46 ms
+remove 72 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 77 ms
+lookup 46 ms
+remove 73 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 77 ms
+lookup 46 ms
+remove 72 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 76 ms
+lookup 45 ms
+remove 71 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 77 ms
+lookup 46 ms
+remove 72 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 76 ms
+lookup 46 ms
+remove 71 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 120 ms
+lookup 81 ms
+remove 115 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 122 ms
+lookup 87 ms
+remove 116 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 120 ms
+lookup 80 ms
+remove 117 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 119 ms
+lookup 80 ms
+remove 116 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 121 ms
+lookup 80 ms
+remove 115 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 120 ms
+lookup 82 ms
+remove 116 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 120 ms
+lookup 81 ms
+remove 115 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 120 ms
+lookup 81 ms
+remove 114 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 121 ms
+lookup 82 ms
+remove 116 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 120 ms
+lookup 81 ms
+remove 114 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 120 ms
+lookup 81 ms
+remove 115 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 119 ms
+lookup 80 ms
+remove 114 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 194 ms
+lookup 176 ms
+remove 184 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 192 ms
+lookup 176 ms
+remove 183 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 193 ms
+lookup 177 ms
+remove 184 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 192 ms
+lookup 176 ms
+remove 182 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 193 ms
+lookup 183 ms
+remove 182 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 192 ms
+lookup 176 ms
+remove 182 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 203 ms
+lookup 176 ms
+remove 182 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 193 ms
+lookup 175 ms
+remove 182 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 192 ms
+lookup 174 ms
+remove 183 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 193 ms
+lookup 175 ms
+remove 181 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 192 ms
+lookup 177 ms
+remove 182 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 16
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 193 ms
+lookup 175 ms
+remove 181 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 202 ms
+lookup 183 ms
+remove 192 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 203 ms
+lookup 183 ms
+remove 190 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 203 ms
+lookup 184 ms
+remove 191 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 203 ms
+lookup 188 ms
+remove 192 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 204 ms
+lookup 183 ms
+remove 192 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 205 ms
+lookup 184 ms
+remove 191 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 208 ms
+lookup 184 ms
+remove 193 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 202 ms
+lookup 185 ms
+remove 190 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 202 ms
+lookup 184 ms
+remove 192 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 202 ms
+lookup 182 ms
+remove 191 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 205 ms
+lookup 183 ms
+remove 192 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 204 ms
+lookup 182 ms
+remove 191 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 214 ms
+lookup 196 ms
+remove 200 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 215 ms
+lookup 197 ms
+remove 201 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 216 ms
+lookup 198 ms
+remove 201 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 214 ms
+lookup 196 ms
+remove 200 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 215 ms
+lookup 195 ms
+remove 206 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 214 ms
+lookup 199 ms
+remove 201 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 215 ms
+lookup 196 ms
+remove 201 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 200
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 213 ms
+lookup 196 ms
+remove 200 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 214 ms
+lookup 193 ms
+remove 202 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 214 ms
+lookup 195 ms
+remove 200 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 215 ms
+lookup 197 ms
+remove 202 ms
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 213 ms
+lookup 195 ms
+remove 199 ms

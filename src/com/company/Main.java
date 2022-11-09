@@ -2,8 +2,8 @@ package cuckoo;
 
 import java.util.Arrays;
 import java.io.*;
-import java.util.Scanner;
 
+// length of fingerprint
 
 public class Main {
     public static void main(String[] args) {
@@ -13,22 +13,26 @@ public class Main {
         int[] bucketSizes = new int[]{16, 64, 256};
         int[] maxNumsOfKicks = new int[]{100, 200, 400};
         int[] maxSampleByteLens = new int[]{32, 1024};
+        int[] fingerprintLens = new int[]{2, 4, 8};
 
         for (int numOfSample : numofSamples)
             for (int bucketAddrSpace : bucketAddrSpaces)
                 for (int bucketSize : bucketSizes)
                     for (int maxNumofKicks : maxNumsOfKicks)
-                        for (int maxSampleByteLen : maxSampleByteLens) {
-                            System.out.println("\n\n\n" +
-                                    "numOfSample : " + numOfSample + "\n" +
-                                    "bucketAddrSpace : " + bucketAddrSpace + "\n" +
-                                    "bucketSize : " + bucketSize + "\n" +
-                                    "maxNumofKicks : " + maxNumofKicks + "\n" +
-                                    "maxSampleByteLen : " + maxSampleByteLen + "\n"
-                            );
-                            test = new Test(numOfSample, bucketAddrSpace, bucketSize, maxNumofKicks, maxSampleByteLen);
-                            test.run();
-                        }
+                        for (int maxSampleByteLen : maxSampleByteLens)
+                            for (int fingerprintLen : fingerprintLens) {
+                                System.out.println("\n\n\n" +
+                                        "numOfSample : " + numOfSample + "\n" +
+                                        "bucketAddrSpace : " + bucketAddrSpace + "\n" +
+                                        "bucketSize : " + bucketSize + "\n" +
+                                        "maxNumofKicks : " + maxNumofKicks + "\n" +
+                                        "maxSampleByteLen : " + maxSampleByteLen + "\n" +
+                                        "fingerprintLen : " + fingerprintLen + "\n"
+                                );
+                                test = new Test(numOfSample, bucketAddrSpace, bucketSize,
+                                        maxNumofKicks, maxSampleByteLen, fingerprintLen);
+                                test.run();
+                            }
     }
 }
 
@@ -41,6 +45,7 @@ final class CONFIGS {
     static int maxNumKicks;
     static int numOfSamples;
     static int maxSampleBytesLen;
+    static int fingerprintLen;
 }
 
 class Cuckoo {
@@ -174,7 +179,9 @@ class Bucket {
 class Hash {
     static public byte getFingerPrint(byte[] data) {
         int hashed = getHash(data);
-        byte fp = (byte) (hashed & 0xFF);
+        byte fp = CONFIGS.fingerprintLen == 8 ? (byte) (hashed & 0xFF) :
+                CONFIGS.fingerprintLen == 4 ? (byte) (hashed & 0xF) :
+                CONFIGS.fingerprintLen == 2 ? (byte) (hashed & 0x7) : null;
         if (fp == 0) {
             return (byte) (fp + 1);
         }
@@ -216,13 +223,15 @@ class HashTest {
 class Test {
     Cuckoo cuckoo;
 
-    public Test(int numOfSamples, int bucketAddressSpace, int bucketSize, int maxNumKicks, int maxSampleBytesLen) {
+    public Test(int numOfSamples, int bucketAddressSpace, int bucketSize, int maxNumKicks, int maxSampleBytesLen,
+                int fingerprintLen) {
         CONFIGS.bucketAddressSpace = bucketAddressSpace;
         CONFIGS.bucketFullOne = (int) Math.pow(2, bucketAddressSpace) - 1;
         CONFIGS.bucketSize = bucketSize;
         CONFIGS.maxNumKicks = maxNumKicks;
         CONFIGS.numOfSamples = numOfSamples;
         CONFIGS.maxSampleBytesLen = maxSampleBytesLen;
+        CONFIGS.fingerprintLen = fingerprintLen;
 
         cuckoo = new Cuckoo();
     }
@@ -306,21 +315,14 @@ class Test {
 
 class RandomString {
     static String getAlphaNumericString(int n) {
-        String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                + "0123456789"
-                + "abcdefghijklmnopqrstuvxyz";
-
+        String sampleStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "0123456789" + "abcdefghijklmnopqrstuvxyz";
         StringBuilder sb = new StringBuilder(n);
 
         for (int i = 0; i < n; i++) {
-            int index
-                    = (int) (AlphaNumericString.length()
-                    * Math.random());
-
-            sb.append(AlphaNumericString
+            int index = (int) (sampleStr.length() * Math.random());
+            sb.append(sampleStr
                     .charAt(index));
         }
-
         return sb.toString();
     }
 }
