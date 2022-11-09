@@ -8,32 +8,56 @@ public class Main {
         Test test;
 
         // different parameters
-        int[] numofSamples = new int[]{100000, 1000000};
-        int[] bucketAddrSpaces = new int[]{12, 16, 20};
-        int[] bucketSizes = new int[]{64, 256};
-        int[] maxNumsOfKicks = new int[]{100, 400};
-        int[] maxSampleByteLens = new int[]{32, 1024};
-        int[] fingerprintLens = new int[]{2, 4, 8};
+        int[] numofSamples = new int[]{10000};
+        int[] bucketAddrSpaces = new int[]{8, 12, 16};
+        int[] bucketSizes = new int[]{16, 64, 256};
+        int[] maxNumsOfKicks = new int[]{100};
+        int[] maxSampleByteLens = new int[]{32};
+        int[] fingerprintLens = new int[]{8};
 
         // brute-force over different parameters to generate output
-        for (int numOfSample : numofSamples)
-            for (int bucketAddressSpace : bucketAddrSpaces)
-                for (int bucketSize : bucketSizes)
-                    for (int maxNumOfKicks : maxNumsOfKicks)
-                        for (int maxSampleByteLen : maxSampleByteLens)
-                            for (int fingerprintLen : fingerprintLens) {
-                                System.out.println("\n\n\n" +
-                                        "numOfSample : " + numOfSample + "\n" +
-                                        "bucketAddressSpace : " + bucketAddressSpace + "\n" +
-                                        "bucketSize : " + bucketSize + "\n" +
-                                        "maxNumOfKicks : " + maxNumOfKicks + "\n" +
-                                        "maxSampleByteLen : " + maxSampleByteLen + "\n" +
-                                        "fingerprintLen : " + fingerprintLen + "\n"
-                                );
-                                test = new Test(numOfSample, bucketAddressSpace, bucketSize,
-                                        maxNumOfKicks, maxSampleByteLen, fingerprintLen);
-                                test.run();
-                            }
+        File file = new File("res.csv");
+        try {
+            FileWriter outputfile = new FileWriter(file);
+
+            for (int numOfSample : numofSamples)
+                for (int bucketAddressSpace : bucketAddrSpaces)
+                    for (int bucketSize : bucketSizes)
+                        for (int maxNumOfKicks : maxNumsOfKicks)
+                            for (int maxSampleByteLen : maxSampleByteLens)
+                                for (int fingerprintLen : fingerprintLens) {
+                                    System.out.println("\n\n\n" +
+                                            "numOfSample : " + numOfSample + "\n" +
+                                            "bucketAddressSpace : " + bucketAddressSpace + "\n" +
+                                            "bucketSize : " + bucketSize + "\n" +
+                                            "maxNumOfKicks : " + maxNumOfKicks + "\n" +
+                                            "maxSampleByteLen : " + maxSampleByteLen + "\n" +
+                                            "fingerprintLen : " + fingerprintLen + "\n"
+                                    );
+                                    test = new Test(numOfSample, bucketAddressSpace, bucketSize,
+                                            maxNumOfKicks, maxSampleByteLen, fingerprintLen);
+                                    long[] times = test.run();
+
+                                    String[] data = {
+                                            String.valueOf(numOfSample),
+                                            String.valueOf(bucketAddressSpace),
+                                            String.valueOf(bucketSize),
+                                            String.valueOf(maxNumOfKicks),
+                                            String.valueOf(maxSampleByteLen),
+                                            String.valueOf(fingerprintLen),
+                                            String.valueOf(times[0] > 0 ? times[0] : -1),
+                                            String.valueOf(times[1] > 0 ? times[1] : -1),
+                                            String.valueOf(times[2] > 0 ? times[2] : -1),
+                                            String.valueOf(times[0] < 0 ? -times[0] : -1),
+                                            String.valueOf(times[1] < 0 ? -times[1] : -1),
+                                            String.valueOf(times[2] < 0 ? -times[2] : -1),
+                                    };
+                                    outputfile.write(Arrays.toString(data) + "\n");
+                                }
+            outputfile.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 
@@ -169,7 +193,7 @@ class Hash {
         int hashed = getHash(data);
         byte fp = CONFIGS.fingerprintLen == 8 ? (byte) (hashed & 0xFF) :
                 CONFIGS.fingerprintLen == 4 ? (byte) (hashed & 0xF) :
-                CONFIGS.fingerprintLen == 2 ? (byte) (hashed & 0x7) : 1;
+                        CONFIGS.fingerprintLen == 2 ? (byte) (hashed & 0x7) : 1;
         if (fp == 0) {
             return (byte) (fp + 1);
         }
@@ -230,54 +254,58 @@ class Test {
         }
     }
 
-    public void insertAll() {
-        long start = System.currentTimeMillis();
+    public long insertAll() {
+        long start = System.nanoTime();
         for (int i = 0; i < CONFIGS.numOfSamples; i++) {
             byte[] data = CONFIGS.mainData[i];
             boolean isSuccessful = cuckoo.insert(data);
             if (!isSuccessful) {
                 System.out.println("insert was not successful at : " + (i + 1) + "th entry!");
-                return;
+                return -i - 1;
             }
         }
-        long end = System.currentTimeMillis();
-        System.out.println("insert " + (end - start) + " ms");
+        long end = System.nanoTime();
+        System.out.println("insert " + (end - start)  + " ns");
+        return end - start;
     }
 
-    public void lookupAll() {
-        long start = System.currentTimeMillis();
+    public long lookupAll() {
+        long start = System.nanoTime();
         for (int i = 0; i < CONFIGS.numOfSamples; i++) {
             byte[] data = CONFIGS.mainData[i];
             boolean isSuccessful = cuckoo.lookup(data);
             if (!isSuccessful) {
                 System.out.println("lookup was not successful at : " + (i + 1) + "th entry!");
-                return;
+                return -i - 1;
             }
         }
-        long end = System.currentTimeMillis();
-        System.out.println("lookup " + (end - start) + " ms");
+        long end = System.nanoTime();
+        System.out.println("lookup " + (end - start) + " ns");
+        return end - start;
     }
 
-    public void removeAll() {
-        long start = System.currentTimeMillis();
+    public long removeAll() {
+        long start = System.nanoTime();
         for (int i = 0; i < CONFIGS.numOfSamples; i++) {
             byte[] data = CONFIGS.mainData[i];
             boolean isSuccessful = cuckoo.remove(data);
             if (!isSuccessful) {
                 System.out.println("remove was not successful  at : " + (i + 1) + "th entry!");
-                return;
+                return -i - 1;
             }
         }
-        long end = System.currentTimeMillis();
-        System.out.println("remove " + (end - start) + " ms");
+        long end = System.nanoTime();
+        System.out.println("remove " + (end - start) + " ns");
+        return end - start;
     }
 
-    public void run() {
+    public long[] run() {
         this.getData();
-        this.insertAll();
-        this.lookupAll();
-        this.removeAll();
+        long timeInsert = this.insertAll();
+        long timeLookup = this.lookupAll();
+        long timeRemove = this.removeAll();
         System.out.println("=========================================");
+        return new long[]{timeInsert, timeLookup, timeRemove};
     }
 
     private int getRandomWithinRange(int min, int max) {
