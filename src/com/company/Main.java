@@ -181,7 +181,7 @@ class Hash {
         int hashed = getHash(data);
         byte fp = CONFIGS.fingerprintLen == 8 ? (byte) (hashed & 0xFF) :
                 CONFIGS.fingerprintLen == 4 ? (byte) (hashed & 0xF) :
-                CONFIGS.fingerprintLen == 2 ? (byte) (hashed & 0x7) : null;
+                CONFIGS.fingerprintLen == 2 ? (byte) (hashed & 0x7) : 1;
         if (fp == 0) {
             return (byte) (fp + 1);
         }
@@ -261,7 +261,7 @@ class Test {
             byte[] data = CONFIGS.mainData[i];
             boolean isSuccessful = cuckoo.insert(data);
             if (!isSuccessful) {
-                System.out.println("insert was not successful");
+                System.out.println("insert was not successful at : " + (i + 1) + " entry!");
                 return;
 //                System.exit(1);
             }
@@ -277,7 +277,7 @@ class Test {
             byte[] data = CONFIGS.mainData[i];
             boolean isSuccessful = cuckoo.lookup(data);
             if (!isSuccessful) {
-                System.out.println("lookup was not successful");
+                System.out.println("lookup was not successful at : " + (i + 1) + " entry!");
                 return;
             }
 //            cuckoo.printBuckets();
@@ -292,7 +292,7 @@ class Test {
             byte[] data = CONFIGS.mainData[i];
             boolean isSuccessful = cuckoo.remove(data);
             if (!isSuccessful) {
-                System.out.println("remove was not successful");
+                System.out.println("remove was not successful  at : " + (i + 1) + " entry!");
                 return;
             }
 //            cuckoo.printBuckets();
