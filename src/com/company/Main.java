@@ -1,20 +1,29 @@
 package cuckoo;
 
 import java.util.Arrays;
+import java.io.*;
+import java.util.Scanner;
 
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Cuckoo");
-        new CuckooSimpleTest().main();
+
+        Test test = new Test();
+        test.genRandomByteArr();
+        test.insertAll();
+        test.lookupAll();
+        test.removeAll();
     }
 }
 
 final class CONFIGS {
-    static int bucketAddressSpace = 3;
+    static int bucketAddressSpace = 16; // 2^16 buckets
     static int bucketFullOne = (int) Math.pow(2, bucketAddressSpace) - 1;
-    static int bucketSize = 4;
+    static int bucketSize = 16; // 2^16 * 2^4 = 1MB cuckoo size
     static int maxNumKicks = 500;
+    static int numOfSamples = 1000000;
+    static int maxSampleBytesLen = 1023;
 }
 
 class Cuckoo {
@@ -80,6 +89,7 @@ class Cuckoo {
     }
 
     public void printBuckets() {
+        System.out.println("\nprinting Buckets: ");
         for (int i = 0; i < buckets.length; i++) {
             System.out.print("bucket" + i + " ");
             buckets[i].printBucket();
@@ -183,5 +193,104 @@ class HashTest {
         int othIndex = Hash.getOtherIndex(fingerprint, initIndex);
         System.out.println("other index: " + othIndex);
         System.out.println("other index: " + Hash.getOtherIndex(fingerprint, othIndex));
+    }
+}
+
+class Test {
+    byte[][] result;
+    Cuckoo cuckoo;
+
+    public Test() {
+        cuckoo = new Cuckoo();
+    }
+
+    public void genRandomByteArr() {
+        int n = 100;
+        result = new byte[n][];
+        File file = new File("./sample.txt");
+        if (!file.exists()) {
+            for (int i = 0; i < n; i++) {
+                int lenOfByteArr = getRandomWithinRange(3, CONFIGS.maxSampleBytesLen);
+                result[i] = new byte[lenOfByteArr];
+                for (int j = 0; j < lenOfByteArr; j++) {
+                    result[i][j] = (byte) getRandomWithinRange(-128, 127);
+                }
+            }
+
+            try {
+                file.createNewFile();
+                PrintWriter out = new PrintWriter(file.getPath());
+                for (byte[] data: result) {
+                    out.println(data.toString());
+                }
+                out.flush();
+            } catch (IOException e) {
+                System.out.println("An error occurred!");
+                e.printStackTrace();
+            }
+        } else {
+            try {
+                Scanner scanner = new Scanner(file);
+                for (int k = 0; k < n; k++) {
+                    byte[] data = scanner.nextLine().getBytes();
+                    System.out.println(Arrays.toString(data));
+                }
+            } catch (IOException e) {
+                System.out.println("An error occurred!");
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public void insertAll() {
+        long start = System.currentTimeMillis();
+        for (byte[] data : result) {
+            boolean isSuccessful = cuckoo.insert(data);
+            if (!isSuccessful) {
+                System.out.println("insert was not successful");
+                System.exit(1);
+            }
+//            cuckoo.printBuckets();
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("insert " + (end - start) + " ms");
+    }
+
+    public void lookupAll() {
+        long start = System.currentTimeMillis();
+        for (byte[] data : result) {
+            boolean isSuccessful = cuckoo.lookup(data);
+            if (!isSuccessful) {
+                System.out.println("lookup was not successful");
+                System.exit(1);
+            }
+//            cuckoo.printBuckets();
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("lookup " + (end - start) + " ms");
+    }
+
+    public void removeAll() {
+        long start = System.currentTimeMillis();
+        for (byte[] data : result) {
+            boolean isSuccessful = cuckoo.remove(data);
+            if (!isSuccessful) {
+                System.out.println("remove was not successful");
+                System.exit(1);
+            }
+//            cuckoo.printBuckets();
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("remove " + (end - start) + " ms");
+    }
+
+    public void printByte2dArr() {
+        for (byte[] bytes : result) {
+            System.out.println(Arrays.toString(bytes));
+        }
+    }
+
+    private int getRandomWithinRange(int min, int max) {
+        return (int) Math.floor(Math.random() * (max - min + 1) + min);
     }
 }
