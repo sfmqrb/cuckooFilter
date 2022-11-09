@@ -1,7 +1,6 @@
 package cuckoo;
 
 import java.util.Arrays;
-import java.lang.Integer;
 
 
 public class Main {
@@ -9,12 +8,22 @@ public class Main {
         System.out.println("Cuckoo");
 //        Bucket x = new Bucket();
 //        x.insert((byte)2);
-        new HashTest().main();
+//        new HashTest().main();
+        Cuckoo cuckoo = new Cuckoo();
+        byte[] data = new byte[]{10, 12};
+        System.out.println(cuckoo.lookup(data));
+        cuckoo.printBuckets();
+        System.out.println(cuckoo.insert(data));
+        cuckoo.printBuckets();
+        System.out.println(cuckoo.lookup(data));
+        System.out.println(cuckoo.remove(data));
+        cuckoo.printBuckets();
+        System.out.println(cuckoo.lookup(data));
     }
 }
 
 final class CONFIGS {
-    static int bucketAddressSpace = 16;
+    static int bucketAddressSpace = 3;
     static int bucketFullOne = (int) Math.pow(2, bucketAddressSpace) - 1;
     static int bucketSize = 4;
     static int maxNumKicks = 500;
@@ -23,6 +32,12 @@ final class CONFIGS {
 class Cuckoo {
     Bucket[] buckets = new Bucket[(int) Math.pow(2, CONFIGS.bucketAddressSpace)];
     int count = 0;
+
+    public Cuckoo() {
+        for (int i = 0; i < buckets.length; i++) {
+            buckets[i] = new Bucket();
+        }
+    }
 
     public boolean lookup(byte[] data) {
         byte fingerprint = Hash.getFingerPrint(data);
@@ -44,7 +59,7 @@ class Cuckoo {
         if (buckets[i2].insert(fingerprint)) {
             return true;
         }
-        int iRandom = getRandomWithinRange(0, 1) == 0 ? i1 : i2;
+        int iRandom = getRandomWithinRange(1) == 0 ? i1 : i2;
         return reinsert(fingerprint, CONFIGS.maxNumKicks, iRandom);
     }
 
@@ -55,14 +70,14 @@ class Cuckoo {
         if (buckets[i].insert(fingerprint)) {
             return true;
         }
-        int j = getRandomWithinRange(0, CONFIGS.bucketSize - 1);
+        int j = getRandomWithinRange(CONFIGS.bucketSize - 1);
         byte newFingerprint = buckets[i].bucket[j];
         int otherIndex = Hash.getOtherIndex(newFingerprint, i);
         buckets[i].bucket[j] = fingerprint;
         return reinsert(newFingerprint, remainTrial - 1, otherIndex);
     }
 
-    private boolean remove(byte[] data) {
+    public boolean remove(byte[] data) {
         byte fingerprint = Hash.getFingerPrint(data);
         int i1 = Hash.getInitialIndex(data);
         if (buckets[i1].remove(fingerprint)) {
@@ -72,10 +87,19 @@ class Cuckoo {
         return buckets[i2].remove(fingerprint);
     }
 
-    private int getRandomWithinRange(int min, int max) {
-        return (int) Math.floor(Math.random() * (max - min + 1) + min);
+    private int getRandomWithinRange(int max) {
+        return (int) Math.floor(Math.random() * (max + 1) + 0);
+    }
+
+    public void printBuckets() {
+        for (int i = 0; i < buckets.length; i++) {
+            System.out.print("bucket" + i + " ");
+            buckets[i].printBucket();
+        }
     }
 }
+
+
 
 class Bucket {
     int bucketSize = CONFIGS.bucketSize;
@@ -88,7 +112,6 @@ class Bucket {
     }
 
     public boolean insert(byte fingerprint) {
-        this.printBucket();
         for (int i = 0; i < this.bucketSize; i++) {
             if (this.bucket[i] == 0) {
                 this.bucket[i] = fingerprint;
@@ -125,7 +148,11 @@ class Bucket {
 class Hash {
     static public byte getFingerPrint(byte[] data) {
         int hashed = getHash(data);
-        return (byte) (hashed & 0xF);
+        byte fp = (byte) (hashed & 0xF);
+        if (fp == 0) {
+            return (byte) (fp + 1);
+        }
+        return fp;
     }
 
     static public int getInitialIndex(byte[] data) {
