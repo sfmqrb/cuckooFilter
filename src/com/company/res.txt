@@ -3,1666 +3,1108 @@
 
 numOfSample : 100000
 bucketAddrSpace : 12
-bucketSize : 16
+bucketSize : 64
 maxNumofKicks : 100
 maxSampleByteLen : 32
-fingerprintLen : 4
+fingerprintLen : 2
 
 generating data ...
-insert was not successful
-lookup 8 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup 6 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert was not successful
-lookup 4 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup 8 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert was not successful
-lookup 4 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup 4 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert was not successful
-lookup 4 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup 3 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert was not successful
-lookup 3 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup 3 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert was not successful
-lookup 4 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup 3 ms
-remove was not successful
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 5 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 5 ms
-lookup 3 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 5 ms
-lookup 4 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 7 ms
-lookup 3 ms
-remove 9 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 6 ms
-lookup 3 ms
-remove 8 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 5 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 5 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 5 ms
-lookup 3 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 6 ms
-lookup 3 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 6 ms
-lookup 3 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 5 ms
-lookup 3 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 5 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 6 ms
-lookup 3 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 5 ms
-lookup 3 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 6 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 6 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 7 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 6 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 7 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 7 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 6 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 6 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 6 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 6 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 7 ms
-lookup 4 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 7 ms
-lookup 3 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 8 ms
-lookup 5 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 8 ms
-lookup 5 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 8 ms
-lookup 4 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 8 ms
-lookup 5 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 8 ms
-lookup 5 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 8 ms
-lookup 5 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 9 ms
-lookup 4 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 8 ms
-lookup 4 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 8 ms
-lookup 5 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 8 ms
-lookup 5 ms
-remove 5 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 8 ms
-lookup 5 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 8 ms
-lookup 5 ms
-remove 6 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 11 ms
-lookup 9 ms
-remove 9 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 11 ms
-lookup 8 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 12 ms
-lookup 9 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 12 ms
-lookup 8 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 11 ms
-lookup 9 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 11 ms
-lookup 8 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 12 ms
-lookup 9 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 12 ms
-lookup 8 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 12 ms
-lookup 8 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 12 ms
-lookup 8 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 12 ms
-lookup 8 ms
-remove 10 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 11 ms
-lookup 9 ms
-remove 9 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 17 ms
-lookup 17 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 18 ms
-lookup 17 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 19 ms
-lookup 18 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 18 ms
-lookup 17 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 23 ms
+insert 29 ms
 lookup 19 ms
-remove 17 ms
+remove 26 ms
+=========================================
 
 
 
 numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 18 ms
-lookup 17 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 18 ms
-lookup 18 ms
-remove 16 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 18 ms
-lookup 18 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 17 ms
-lookup 18 ms
-remove 18 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 19 ms
-lookup 18 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 19 ms
-lookup 17 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 18 ms
-lookup 18 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
+bucketAddrSpace : 12
 bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 19 ms
-lookup 19 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 19 ms
-lookup 19 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 20 ms
-lookup 19 ms
-remove 18 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 21 ms
-lookup 18 ms
-remove 18 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 20 ms
-lookup 19 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 20 ms
-lookup 18 ms
-remove 18 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 21 ms
-lookup 18 ms
-remove 18 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 19 ms
-lookup 18 ms
-remove 18 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 20 ms
-lookup 19 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 20 ms
-lookup 18 ms
-remove 17 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 21 ms
-lookup 18 ms
-remove 18 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 21 ms
-lookup 18 ms
-remove 18 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 256
 maxNumofKicks : 100
 maxSampleByteLen : 32
 fingerprintLen : 4
 
 insert 22 ms
+lookup 13 ms
+remove 19 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 30 ms
 lookup 20 ms
-remove 19 ms
+remove 28 ms
+=========================================
 
 
 
 numOfSample : 100000
-bucketAddrSpace : 20
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 18 ms
+lookup 11 ms
+remove 17 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 19 ms
+lookup 11 ms
+remove 17 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 18 ms
+lookup 11 ms
+remove 19 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 18 ms
+lookup 10 ms
+remove 17 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 17 ms
+lookup 10 ms
+remove 17 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 18 ms
+lookup 10 ms
+remove 17 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 18 ms
+lookup 9 ms
+remove 17 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 18 ms
+lookup 11 ms
+remove 17 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 18 ms
+lookup 11 ms
+remove 19 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 19 ms
+lookup 12 ms
+remove 19 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 19 ms
+lookup 10 ms
+remove 18 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
 bucketSize : 256
 maxNumofKicks : 100
 maxSampleByteLen : 32
 fingerprintLen : 8
 
-insert 22 ms
-lookup 19 ms
-remove 19 ms
+insert 19 ms
+lookup 10 ms
+remove 18 ms
+=========================================
 
 
 
 numOfSample : 100000
-bucketAddrSpace : 20
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 19 ms
+lookup 11 ms
+remove 18 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
 bucketSize : 256
 maxNumofKicks : 100
 maxSampleByteLen : 1024
 fingerprintLen : 4
+
+insert 19 ms
+lookup 11 ms
+remove 18 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 19 ms
+lookup 11 ms
+remove 17 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 19 ms
+lookup 10 ms
+remove 19 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 19 ms
+lookup 11 ms
+remove 18 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 19 ms
+lookup 11 ms
+remove 18 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 20 ms
+lookup 10 ms
+remove 19 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 20 ms
+lookup 11 ms
+remove 18 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 19 ms
+lookup 10 ms
+remove 18 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 21 ms
+lookup 13 ms
+remove 20 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 20 ms
+lookup 15 ms
+remove 20 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 21 ms
+lookup 14 ms
+remove 19 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 22 ms
+lookup 15 ms
+remove 21 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 22 ms
+lookup 15 ms
+remove 20 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 21 ms
+lookup 16 ms
+remove 20 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 22 ms
+lookup 15 ms
+remove 20 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 22 ms
+lookup 14 ms
+remove 20 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 21 ms
+lookup 15 ms
+remove 19 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 21 ms
+lookup 15 ms
+remove 21 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 21 ms
+lookup 15 ms
+remove 20 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 20 ms
+lookup 15 ms
+remove 21 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 24 ms
+lookup 20 ms
+remove 26 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 26 ms
+lookup 20 ms
+remove 25 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 25 ms
+lookup 20 ms
+remove 25 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 26 ms
+lookup 19 ms
+remove 26 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 26 ms
+lookup 18 ms
+remove 25 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 25 ms
+lookup 19 ms
+remove 26 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 26 ms
+lookup 20 ms
+remove 27 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 26 ms
+lookup 19 ms
+remove 26 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 26 ms
+lookup 19 ms
+remove 26 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
 
 insert 27 ms
-lookup 22 ms
-remove 22 ms
+lookup 19 ms
+remove 26 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 24 ms
+lookup 19 ms
+remove 25 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 24 ms
+lookup 19 ms
+remove 25 ms
+=========================================
 
 
 
 numOfSample : 100000
 bucketAddrSpace : 20
-bucketSize : 256
+bucketSize : 64
 maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 23 ms
-lookup 20 ms
-remove 19 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 200
 maxSampleByteLen : 32
-fingerprintLen : 4
+fingerprintLen : 2
 
-insert 23 ms
-lookup 19 ms
-remove 19 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 22 ms
-lookup 20 ms
-remove 19 ms
+insert 34 ms
+lookup 36 ms
+remove 40 ms
+=========================================
 
 
 
 numOfSample : 100000
 bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 22 ms
-lookup 19 ms
-remove 19 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 21 ms
-lookup 20 ms
-remove 19 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 22 ms
-lookup 19 ms
-remove 19 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 23 ms
-lookup 19 ms
-remove 19 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 23 ms
-lookup 19 ms
-remove 19 ms
-
-
-
-numOfSample : 100000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 22 ms
-lookup 20 ms
-remove 18 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
+bucketSize : 64
 maxNumofKicks : 100
 maxSampleByteLen : 32
 fingerprintLen : 4
 
-insert was not successful
+insert 36 ms
+lookup 36 ms
+remove 37 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 35 ms
+lookup 36 ms
+remove 38 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 38 ms
+lookup 35 ms
+remove 38 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 33 ms
+lookup 35 ms
+remove 36 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 30 ms
+lookup 30 ms
+remove 32 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 31 ms
+lookup 30 ms
+remove 31 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 39 ms
 lookup 39 ms
-remove was not successful
+remove 43 ms
+=========================================
 
 
 
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup 37 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert was not successful
-lookup 39 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup 38 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert was not successful
-lookup 38 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup 37 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert was not successful
-lookup 38 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup 37 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert was not successful
-lookup 39 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
 maxNumofKicks : 400
 maxSampleByteLen : 32
 fingerprintLen : 8
 
-insert was not successful
+insert 36 ms
+lookup 38 ms
+remove 41 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 36 ms
+lookup 37 ms
+remove 39 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 38 ms
+lookup 36 ms
+remove 40 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 34 ms
+lookup 36 ms
+remove 40 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 39 ms
+lookup 41 ms
+remove 44 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 37 ms
+lookup 38 ms
+remove 42 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 42 ms
+lookup 39 ms
+remove 40 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 41 ms
+lookup 38 ms
+remove 42 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 40 ms
 lookup 40 ms
-remove was not successful
+remove 40 ms
+=========================================
 
 
 
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
-maxNumofKicks : 400
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
 maxSampleByteLen : 1024
-fingerprintLen : 4
+fingerprintLen : 8
 
-insert was not successful
+insert 36 ms
+lookup 41 ms
+remove 42 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 40 ms
 lookup 39 ms
-remove was not successful
+remove 40 ms
+=========================================
 
 
 
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 16
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
 maxNumofKicks : 400
-maxSampleByteLen : 1024
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 42 ms
+lookup 40 ms
+remove 43 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
 fingerprintLen : 8
 
-insert was not successful
+insert 40 ms
 lookup 39 ms
-remove was not successful
+remove 41 ms
+=========================================
 
 
 
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert was not successful
-lookup 38 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup 37 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 100
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
 maxSampleByteLen : 1024
-fingerprintLen : 4
+fingerprintLen : 2
 
-insert was not successful
-lookup 37 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup 37 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert was not successful
+insert 41 ms
 lookup 39 ms
-remove was not successful
+remove 42 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 42 ms
+lookup 40 ms
+remove 42 ms
+=========================================
+
+
+
+numOfSample : 100000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 38 ms
+lookup 40 ms
+remove 43 ms
+=========================================
 
 
 
 numOfSample : 1000000
 bucketAddrSpace : 12
 bucketSize : 64
-maxNumofKicks : 200
+maxNumofKicks : 100
 maxSampleByteLen : 32
-fingerprintLen : 8
+fingerprintLen : 2
 
-insert was not successful
-lookup 36 ms
-remove was not successful
+insert was not successful at : 165004th entry!
+lookup 112 ms
+remove was not successful  at : 165004th entry!
+=========================================
 
 
 
 numOfSample : 1000000
 bucketAddrSpace : 12
 bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
+maxNumofKicks : 100
+maxSampleByteLen : 32
 fingerprintLen : 4
 
-insert was not successful
-lookup 38 ms
-remove was not successful
+insert was not successful at : 165004th entry!
+lookup 102 ms
+remove was not successful  at : 165004th entry!
+=========================================
 
 
 
 numOfSample : 1000000
 bucketAddrSpace : 12
 bucketSize : 64
-maxNumofKicks : 200
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert was not successful at : 206352th entry!
+lookup 112 ms
+remove was not successful  at : 204537th entry!
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert was not successful at : 165004th entry!
+lookup 111 ms
+remove was not successful  at : 165004th entry!
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert was not successful at : 165004th entry!
+lookup 108 ms
+remove was not successful  at : 165004th entry!
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 100
 maxSampleByteLen : 1024
 fingerprintLen : 8
 
-insert was not successful
-lookup 37 ms
-remove was not successful
+insert was not successful at : 207835th entry!
+lookup 117 ms
+remove was not successful  at : 206190th entry!
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert was not successful at : 165004th entry!
+lookup 109 ms
+remove was not successful  at : 165004th entry!
+=========================================
 
 
 
@@ -1673,9 +1115,10 @@ maxNumofKicks : 400
 maxSampleByteLen : 32
 fingerprintLen : 4
 
-insert was not successful
-lookup 37 ms
-remove was not successful
+insert was not successful at : 165004th entry!
+lookup 102 ms
+remove was not successful  at : 165004th entry!
+=========================================
 
 
 
@@ -1686,9 +1129,24 @@ maxNumofKicks : 400
 maxSampleByteLen : 32
 fingerprintLen : 8
 
-insert was not successful
-lookup 37 ms
-remove was not successful
+insert was not successful at : 212013th entry!
+lookup 101 ms
+remove was not successful  at : 212013th entry!
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert was not successful at : 165004th entry!
+lookup 114 ms
+remove was not successful  at : 165004th entry!
+=========================================
 
 
 
@@ -1699,9 +1157,10 @@ maxNumofKicks : 400
 maxSampleByteLen : 1024
 fingerprintLen : 4
 
-insert was not successful
-lookup 38 ms
-remove was not successful
+insert was not successful at : 165004th entry!
+lookup 108 ms
+remove was not successful  at : 165004th entry!
+=========================================
 
 
 
@@ -1712,9 +1171,24 @@ maxNumofKicks : 400
 maxSampleByteLen : 1024
 fingerprintLen : 8
 
-insert was not successful
-lookup 36 ms
-remove was not successful
+insert was not successful at : 211053th entry!
+lookup 106 ms
+remove was not successful  at : 196838th entry!
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert was not successful at : 712419th entry!
+lookup 110 ms
+remove was not successful  at : 712419th entry!
+=========================================
 
 
 
@@ -1725,9 +1199,10 @@ maxNumofKicks : 100
 maxSampleByteLen : 32
 fingerprintLen : 4
 
-insert was not successful
-lookup 39 ms
-remove was not successful
+insert was not successful at : 712419th entry!
+lookup 110 ms
+remove was not successful  at : 712419th entry!
+=========================================
 
 
 
@@ -1738,9 +1213,24 @@ maxNumofKicks : 100
 maxSampleByteLen : 32
 fingerprintLen : 8
 
-insert was not successful
-lookup 38 ms
-remove was not successful
+insert was not successful at : 911936th entry!
+lookup 107 ms
+remove was not successful  at : 910291th entry!
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert was not successful at : 712419th entry!
+lookup 110 ms
+remove was not successful  at : 712419th entry!
+=========================================
 
 
 
@@ -1751,9 +1241,10 @@ maxNumofKicks : 100
 maxSampleByteLen : 1024
 fingerprintLen : 4
 
-insert was not successful
-lookup 38 ms
-remove was not successful
+insert was not successful at : 712419th entry!
+lookup 111 ms
+remove was not successful  at : 712419th entry!
+=========================================
 
 
 
@@ -1764,61 +1255,24 @@ maxNumofKicks : 100
 maxSampleByteLen : 1024
 fingerprintLen : 8
 
-insert was not successful
-lookup 38 ms
-remove was not successful
+insert was not successful at : 871248th entry!
+lookup 109 ms
+remove was not successful  at : 867309th entry!
+=========================================
 
 
 
 numOfSample : 1000000
 bucketAddrSpace : 12
 bucketSize : 256
-maxNumofKicks : 200
+maxNumofKicks : 400
 maxSampleByteLen : 32
-fingerprintLen : 4
+fingerprintLen : 2
 
-insert was not successful
-lookup 39 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup 38 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert was not successful
-lookup 39 ms
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 12
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup 37 ms
-remove was not successful
+insert was not successful at : 712419th entry!
+lookup 113 ms
+remove was not successful  at : 712419th entry!
+=========================================
 
 
 
@@ -1829,9 +1283,10 @@ maxNumofKicks : 400
 maxSampleByteLen : 32
 fingerprintLen : 4
 
-insert was not successful
-lookup 38 ms
-remove was not successful
+insert was not successful at : 712419th entry!
+lookup 112 ms
+remove was not successful  at : 712419th entry!
+=========================================
 
 
 
@@ -1842,9 +1297,24 @@ maxNumofKicks : 400
 maxSampleByteLen : 32
 fingerprintLen : 8
 
-insert was not successful
-lookup 38 ms
-remove was not successful
+insert was not successful at : 929064th entry!
+lookup 112 ms
+remove was not successful  at : 924229th entry!
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 12
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert was not successful at : 712419th entry!
+lookup 114 ms
+remove was not successful  at : 712419th entry!
+=========================================
 
 
 
@@ -1855,9 +1325,10 @@ maxNumofKicks : 400
 maxSampleByteLen : 1024
 fingerprintLen : 4
 
-insert was not successful
-lookup 39 ms
-remove was not successful
+insert was not successful at : 712419th entry!
+lookup 111 ms
+remove was not successful  at : 712419th entry!
+=========================================
 
 
 
@@ -1868,165 +1339,24 @@ maxNumofKicks : 400
 maxSampleByteLen : 1024
 fingerprintLen : 8
 
-insert was not successful
-lookup 38 ms
-remove was not successful
+insert was not successful at : 929064th entry!
+lookup 108 ms
+remove was not successful  at : 924560th entry!
+=========================================
 
 
 
 numOfSample : 1000000
 bucketAddrSpace : 16
-bucketSize : 16
+bucketSize : 64
 maxNumofKicks : 100
 maxSampleByteLen : 32
-fingerprintLen : 4
+fingerprintLen : 2
 
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert was not successful
-lookup was not successful
-remove was not successful
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert was not successful
-lookup was not successful
-remove was not successful
+insert 207 ms
+lookup 129 ms
+remove 237 ms
+=========================================
 
 
 
@@ -2037,9 +1367,10 @@ maxNumofKicks : 100
 maxSampleByteLen : 32
 fingerprintLen : 4
 
-insert 76 ms
-lookup 45 ms
-remove 72 ms
+insert 252 ms
+lookup 141 ms
+remove 234 ms
+=========================================
 
 
 
@@ -2050,9 +1381,24 @@ maxNumofKicks : 100
 maxSampleByteLen : 32
 fingerprintLen : 8
 
-insert 77 ms
-lookup 46 ms
-remove 71 ms
+insert 228 ms
+lookup 147 ms
+remove 229 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 228 ms
+lookup 158 ms
+remove 237 ms
+=========================================
 
 
 
@@ -2063,9 +1409,10 @@ maxNumofKicks : 100
 maxSampleByteLen : 1024
 fingerprintLen : 4
 
-insert 76 ms
-lookup 46 ms
-remove 72 ms
+insert 234 ms
+lookup 136 ms
+remove 232 ms
+=========================================
 
 
 
@@ -2076,61 +1423,24 @@ maxNumofKicks : 100
 maxSampleByteLen : 1024
 fingerprintLen : 8
 
-insert 75 ms
-lookup 46 ms
-remove 72 ms
+insert 223 ms
+lookup 133 ms
+remove 230 ms
+=========================================
 
 
 
 numOfSample : 1000000
 bucketAddrSpace : 16
 bucketSize : 64
-maxNumofKicks : 200
+maxNumofKicks : 400
 maxSampleByteLen : 32
-fingerprintLen : 4
+fingerprintLen : 2
 
-insert 76 ms
-lookup 48 ms
-remove 72 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 76 ms
-lookup 45 ms
-remove 72 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 77 ms
-lookup 46 ms
-remove 72 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 77 ms
-lookup 46 ms
-remove 73 ms
+insert 231 ms
+lookup 138 ms
+remove 237 ms
+=========================================
 
 
 
@@ -2141,9 +1451,10 @@ maxNumofKicks : 400
 maxSampleByteLen : 32
 fingerprintLen : 4
 
-insert 77 ms
-lookup 46 ms
-remove 72 ms
+insert 231 ms
+lookup 134 ms
+remove 233 ms
+=========================================
 
 
 
@@ -2154,9 +1465,24 @@ maxNumofKicks : 400
 maxSampleByteLen : 32
 fingerprintLen : 8
 
-insert 76 ms
-lookup 45 ms
-remove 71 ms
+insert 224 ms
+lookup 136 ms
+remove 226 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 235 ms
+lookup 138 ms
+remove 229 ms
+=========================================
 
 
 
@@ -2167,9 +1493,10 @@ maxNumofKicks : 400
 maxSampleByteLen : 1024
 fingerprintLen : 4
 
-insert 77 ms
-lookup 46 ms
-remove 72 ms
+insert 227 ms
+lookup 132 ms
+remove 237 ms
+=========================================
 
 
 
@@ -2180,9 +1507,10 @@ maxNumofKicks : 400
 maxSampleByteLen : 1024
 fingerprintLen : 8
 
-insert 76 ms
-lookup 46 ms
-remove 71 ms
+insert 221 ms
+lookup 126 ms
+remove 205 ms
+=========================================
 
 
 
@@ -2191,609 +1519,488 @@ bucketAddrSpace : 16
 bucketSize : 256
 maxNumofKicks : 100
 maxSampleByteLen : 32
-fingerprintLen : 4
+fingerprintLen : 2
 
-insert 120 ms
-lookup 81 ms
-remove 115 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 122 ms
-lookup 87 ms
-remove 116 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 120 ms
-lookup 80 ms
-remove 117 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 119 ms
-lookup 80 ms
-remove 116 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 121 ms
-lookup 80 ms
-remove 115 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 120 ms
-lookup 82 ms
-remove 116 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 120 ms
-lookup 81 ms
-remove 115 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 120 ms
-lookup 81 ms
-remove 114 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 121 ms
-lookup 82 ms
-remove 116 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 120 ms
-lookup 81 ms
-remove 114 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 120 ms
-lookup 81 ms
-remove 115 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 16
-bucketSize : 256
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 119 ms
-lookup 80 ms
-remove 114 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 194 ms
-lookup 176 ms
-remove 184 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 192 ms
-lookup 176 ms
-remove 183 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 193 ms
-lookup 177 ms
-remove 184 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 192 ms
-lookup 176 ms
-remove 182 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 193 ms
-lookup 183 ms
-remove 182 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 192 ms
-lookup 176 ms
-remove 182 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 203 ms
-lookup 176 ms
-remove 182 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 193 ms
-lookup 175 ms
-remove 182 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 192 ms
-lookup 174 ms
-remove 183 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 193 ms
-lookup 175 ms
-remove 181 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 192 ms
-lookup 177 ms
-remove 182 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 16
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 193 ms
-lookup 175 ms
-remove 181 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 202 ms
-lookup 183 ms
-remove 192 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 203 ms
-lookup 183 ms
-remove 190 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 203 ms
-lookup 184 ms
-remove 191 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 203 ms
-lookup 188 ms
-remove 192 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 204 ms
-lookup 183 ms
-remove 192 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 205 ms
-lookup 184 ms
-remove 191 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 208 ms
-lookup 184 ms
-remove 193 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 202 ms
-lookup 185 ms
-remove 190 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 202 ms
-lookup 184 ms
-remove 192 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 202 ms
-lookup 182 ms
-remove 191 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 205 ms
-lookup 183 ms
-remove 192 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 64
-maxNumofKicks : 400
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 204 ms
-lookup 182 ms
-remove 191 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 214 ms
-lookup 196 ms
-remove 200 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 215 ms
-lookup 197 ms
-remove 201 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 216 ms
-lookup 198 ms
-remove 201 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 100
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 214 ms
-lookup 196 ms
-remove 200 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 4
-
-insert 215 ms
-lookup 195 ms
-remove 206 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 32
-fingerprintLen : 8
-
-insert 214 ms
+insert 303 ms
 lookup 199 ms
-remove 201 ms
+remove 313 ms
+=========================================
 
 
 
 numOfSample : 1000000
-bucketAddrSpace : 20
+bucketAddrSpace : 16
 bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 4
-
-insert 215 ms
-lookup 196 ms
-remove 201 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 200
-maxSampleByteLen : 1024
-fingerprintLen : 8
-
-insert 213 ms
-lookup 196 ms
-remove 200 ms
-
-
-
-numOfSample : 1000000
-bucketAddrSpace : 20
-bucketSize : 256
-maxNumofKicks : 400
+maxNumofKicks : 100
 maxSampleByteLen : 32
 fingerprintLen : 4
 
-insert 214 ms
-lookup 193 ms
-remove 202 ms
+insert 303 ms
+lookup 196 ms
+remove 312 ms
+=========================================
 
 
 
 numOfSample : 1000000
-bucketAddrSpace : 20
+bucketAddrSpace : 16
 bucketSize : 256
-maxNumofKicks : 400
+maxNumofKicks : 100
 maxSampleByteLen : 32
 fingerprintLen : 8
 
-insert 214 ms
-lookup 195 ms
-remove 200 ms
+insert 300 ms
+lookup 191 ms
+remove 310 ms
+=========================================
 
 
 
 numOfSample : 1000000
-bucketAddrSpace : 20
+bucketAddrSpace : 16
 bucketSize : 256
-maxNumofKicks : 400
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 295 ms
+lookup 190 ms
+remove 316 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
 maxSampleByteLen : 1024
 fingerprintLen : 4
 
-insert 215 ms
+insert 301 ms
 lookup 197 ms
-remove 202 ms
+remove 313 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 300 ms
+lookup 194 ms
+remove 304 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 307 ms
+lookup 196 ms
+remove 311 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 306 ms
+lookup 197 ms
+remove 309 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 287 ms
+lookup 172 ms
+remove 297 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 307 ms
+lookup 195 ms
+remove 313 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 301 ms
+lookup 193 ms
+remove 309 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 16
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 301 ms
+lookup 191 ms
+remove 306 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 461 ms
+lookup 400 ms
+remove 469 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 447 ms
+lookup 400 ms
+remove 465 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 443 ms
+lookup 399 ms
+remove 425 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 380 ms
+lookup 402 ms
+remove 467 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 448 ms
+lookup 401 ms
+remove 468 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 426 ms
+lookup 399 ms
+remove 454 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 457 ms
+lookup 390 ms
+remove 469 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 443 ms
+lookup 397 ms
+remove 452 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 361 ms
+lookup 400 ms
+remove 470 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 453 ms
+lookup 401 ms
+remove 466 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 445 ms
+lookup 379 ms
+remove 459 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 64
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 446 ms
+lookup 394 ms
+remove 468 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 480 ms
+lookup 428 ms
+remove 454 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 440 ms
+lookup 426 ms
+remove 488 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 477 ms
+lookup 426 ms
+remove 500 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 487 ms
+lookup 412 ms
+remove 506 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 479 ms
+lookup 427 ms
+remove 508 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 100
+maxSampleByteLen : 1024
+fingerprintLen : 8
+
+insert 469 ms
+lookup 324 ms
+remove 464 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 2
+
+insert 491 ms
+lookup 426 ms
+remove 505 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 4
+
+insert 478 ms
+lookup 434 ms
+remove 497 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 32
+fingerprintLen : 8
+
+insert 461 ms
+lookup 428 ms
+remove 441 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 2
+
+insert 486 ms
+lookup 445 ms
+remove 460 ms
+=========================================
+
+
+
+numOfSample : 1000000
+bucketAddrSpace : 20
+bucketSize : 256
+maxNumofKicks : 400
+maxSampleByteLen : 1024
+fingerprintLen : 4
+
+insert 448 ms
+lookup 432 ms
+remove 501 ms
+=========================================
 
 
 
@@ -2804,6 +2011,7 @@ maxNumofKicks : 400
 maxSampleByteLen : 1024
 fingerprintLen : 8
 
-insert 213 ms
-lookup 195 ms
-remove 199 ms
+insert 488 ms
+lookup 431 ms
+remove 503 ms
+=========================================

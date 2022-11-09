@@ -3,15 +3,13 @@ package cuckoo;
 import java.util.Arrays;
 import java.io.*;
 
-// length of fingerprint
-
 public class Main {
     public static void main(String[] args) {
         Test test;
         int[] numofSamples = new int[]{100000, 1000000};
         int[] bucketAddrSpaces = new int[]{12, 16, 20};
-        int[] bucketSizes = new int[]{16, 64, 256};
-        int[] maxNumsOfKicks = new int[]{100, 200, 400};
+        int[] bucketSizes = new int[]{64, 256};
+        int[] maxNumsOfKicks = new int[]{100, 400};
         int[] maxSampleByteLens = new int[]{32, 1024};
         int[] fingerprintLens = new int[]{2, 4, 8};
 
@@ -261,7 +259,7 @@ class Test {
             byte[] data = CONFIGS.mainData[i];
             boolean isSuccessful = cuckoo.insert(data);
             if (!isSuccessful) {
-                System.out.println("insert was not successful at : " + (i + 1) + " entry!");
+                System.out.println("insert was not successful at : " + (i + 1) + "th entry!");
                 return;
 //                System.exit(1);
             }
@@ -277,7 +275,7 @@ class Test {
             byte[] data = CONFIGS.mainData[i];
             boolean isSuccessful = cuckoo.lookup(data);
             if (!isSuccessful) {
-                System.out.println("lookup was not successful at : " + (i + 1) + " entry!");
+                System.out.println("lookup was not successful at : " + (i + 1) + "th entry!");
                 return;
             }
 //            cuckoo.printBuckets();
@@ -292,7 +290,7 @@ class Test {
             byte[] data = CONFIGS.mainData[i];
             boolean isSuccessful = cuckoo.remove(data);
             if (!isSuccessful) {
-                System.out.println("remove was not successful  at : " + (i + 1) + " entry!");
+                System.out.println("remove was not successful  at : " + (i + 1) + "th entry!");
                 return;
             }
 //            cuckoo.printBuckets();
@@ -306,6 +304,7 @@ class Test {
         this.insertAll();
         this.lookupAll();
         this.removeAll();
+        System.out.println("=========================================");
     }
 
     private int getRandomWithinRange(int min, int max) {
