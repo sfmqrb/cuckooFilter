@@ -6,6 +6,8 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) {
         Test test;
+
+        // different parameters
         int[] numofSamples = new int[]{100000, 1000000};
         int[] bucketAddrSpaces = new int[]{12, 16, 20};
         int[] bucketSizes = new int[]{64, 256};
@@ -13,22 +15,23 @@ public class Main {
         int[] maxSampleByteLens = new int[]{32, 1024};
         int[] fingerprintLens = new int[]{2, 4, 8};
 
+        // brute-force over different parameters to generate output
         for (int numOfSample : numofSamples)
-            for (int bucketAddrSpace : bucketAddrSpaces)
+            for (int bucketAddressSpace : bucketAddrSpaces)
                 for (int bucketSize : bucketSizes)
-                    for (int maxNumofKicks : maxNumsOfKicks)
+                    for (int maxNumOfKicks : maxNumsOfKicks)
                         for (int maxSampleByteLen : maxSampleByteLens)
                             for (int fingerprintLen : fingerprintLens) {
                                 System.out.println("\n\n\n" +
                                         "numOfSample : " + numOfSample + "\n" +
-                                        "bucketAddrSpace : " + bucketAddrSpace + "\n" +
+                                        "bucketAddressSpace : " + bucketAddressSpace + "\n" +
                                         "bucketSize : " + bucketSize + "\n" +
-                                        "maxNumofKicks : " + maxNumofKicks + "\n" +
+                                        "maxNumOfKicks : " + maxNumOfKicks + "\n" +
                                         "maxSampleByteLen : " + maxSampleByteLen + "\n" +
                                         "fingerprintLen : " + fingerprintLen + "\n"
                                 );
-                                test = new Test(numOfSample, bucketAddrSpace, bucketSize,
-                                        maxNumofKicks, maxSampleByteLen, fingerprintLen);
+                                test = new Test(numOfSample, bucketAddressSpace, bucketSize,
+                                        maxNumOfKicks, maxSampleByteLen, fingerprintLen);
                                 test.run();
                             }
     }
@@ -80,8 +83,8 @@ class Cuckoo {
         return reinsert(fingerprint, CONFIGS.maxNumKicks, iRandom);
     }
 
-    private boolean reinsert(byte fingerprint, int remainTrial, int i) {
-        if (remainTrial == 0) {
+    private boolean reinsert(byte fingerprint, int remainKicks, int i) {
+        if (remainKicks == 0) {
             return false;
         }
         if (buckets[i].insert(fingerprint)) {
@@ -91,7 +94,7 @@ class Cuckoo {
         byte newFingerprint = buckets[i].bucket[j];
         int otherIndex = Hash.getOtherIndex(newFingerprint, i);
         buckets[i].bucket[j] = fingerprint;
-        return reinsert(newFingerprint, remainTrial - 1, otherIndex);
+        return reinsert(newFingerprint, remainKicks - 1, otherIndex);
     }
 
     public boolean remove(byte[] data) {
@@ -114,19 +117,6 @@ class Cuckoo {
             System.out.print("bucket" + i + " ");
             buckets[i].printBucket();
         }
-    }
-}
-
-class CuckooSimpleTest {
-    public void main() {
-        Cuckoo cuckoo = new Cuckoo();
-        byte[] data = new byte[]{1, 12};
-        System.out.println("lookup false  : " + cuckoo.lookup(data));
-        System.out.println("insert true  : " + cuckoo.insert(data));
-        cuckoo.printBuckets();
-        System.out.println("lookup true  : " + cuckoo.lookup(data));
-        System.out.println("remove true  : " + cuckoo.remove(data));
-        System.out.println("lookup false : " + cuckoo.lookup(data));
     }
 }
 
@@ -205,19 +195,6 @@ class Hash {
     }
 }
 
-class HashTest {
-    public void main() {
-        byte[] data = {1, 5, 4, 32, 33};
-        byte fingerprint = Hash.getFingerPrint(data);
-        System.out.println("fingerprint: " + fingerprint);
-        int initIndex = Hash.getInitialIndex(data);
-        System.out.println("init index : " + initIndex);
-        int othIndex = Hash.getOtherIndex(fingerprint, initIndex);
-        System.out.println("other index: " + othIndex);
-        System.out.println("other index: " + Hash.getOtherIndex(fingerprint, othIndex));
-    }
-}
-
 class Test {
     Cuckoo cuckoo;
 
@@ -261,9 +238,7 @@ class Test {
             if (!isSuccessful) {
                 System.out.println("insert was not successful at : " + (i + 1) + "th entry!");
                 return;
-//                System.exit(1);
             }
-//            cuckoo.printBuckets();
         }
         long end = System.currentTimeMillis();
         System.out.println("insert " + (end - start) + " ms");
@@ -278,7 +253,6 @@ class Test {
                 System.out.println("lookup was not successful at : " + (i + 1) + "th entry!");
                 return;
             }
-//            cuckoo.printBuckets();
         }
         long end = System.currentTimeMillis();
         System.out.println("lookup " + (end - start) + " ms");
@@ -293,7 +267,6 @@ class Test {
                 System.out.println("remove was not successful  at : " + (i + 1) + "th entry!");
                 return;
             }
-//            cuckoo.printBuckets();
         }
         long end = System.currentTimeMillis();
         System.out.println("remove " + (end - start) + " ms");
@@ -314,7 +287,7 @@ class Test {
 
 class RandomString {
     static String getAlphaNumericString(int n) {
-        String sampleStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "0123456789" + "abcdefghijklmnopqrstuvxyz";
+        String sampleStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvxyz";
         StringBuilder sb = new StringBuilder(n);
 
         for (int i = 0; i < n; i++) {
