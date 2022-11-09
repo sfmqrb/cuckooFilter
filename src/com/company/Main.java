@@ -6,19 +6,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Cuckoo");
-//        Bucket x = new Bucket();
-//        x.insert((byte)2);
-//        new HashTest().main();
-        Cuckoo cuckoo = new Cuckoo();
-        byte[] data = new byte[]{10, 12};
-        System.out.println(cuckoo.lookup(data));
-        cuckoo.printBuckets();
-        System.out.println(cuckoo.insert(data));
-        cuckoo.printBuckets();
-        System.out.println(cuckoo.lookup(data));
-        System.out.println(cuckoo.remove(data));
-        cuckoo.printBuckets();
-        System.out.println(cuckoo.lookup(data));
+        new CuckooSimpleTest().main();
     }
 }
 
@@ -99,7 +87,18 @@ class Cuckoo {
     }
 }
 
-
+class CuckooSimpleTest {
+    public void main() {
+        Cuckoo cuckoo = new Cuckoo();
+        byte[] data = new byte[]{1, 12};
+        System.out.println("lookup false  : " + cuckoo.lookup(data));
+        System.out.println("insert true  : " + cuckoo.insert(data));
+        cuckoo.printBuckets();
+        System.out.println("lookup true  : " + cuckoo.lookup(data));
+        System.out.println("remove true  : " + cuckoo.remove(data));
+        System.out.println("lookup false : " + cuckoo.lookup(data));
+    }
+}
 
 class Bucket {
     int bucketSize = CONFIGS.bucketSize;
@@ -148,7 +147,7 @@ class Bucket {
 class Hash {
     static public byte getFingerPrint(byte[] data) {
         int hashed = getHash(data);
-        byte fp = (byte) (hashed & 0xF);
+        byte fp = (byte) (hashed & 0xFF);
         if (fp == 0) {
             return (byte) (fp + 1);
         }
