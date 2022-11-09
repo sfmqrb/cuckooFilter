@@ -7,13 +7,27 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Cuckoo");
+        Test test;
+        int[] numofSamples = new int[]{1000000};
+        int[] bucketAddrSpaces = new int[]{25};
+        int[] bucketSizes = new int[]{32};
+        int[] maxNumsOfKicks = new int[]{200};
+        int[] maxSampleByteLens = new int[]{32};
 
-        Test test = new Test();
-        test.getData();
-        test.insertAll();
-        test.lookupAll();
-        test.removeAll();
+        for (int numOfSample : numofSamples)
+            for (int bucketAddrSpace : bucketAddrSpaces)
+                for (int bucketSize : bucketSizes)
+                    for (int maxNumofKicks : maxNumsOfKicks)
+                        for (int maxSampleByteLen : maxSampleByteLens) {
+                            System.out.println("\n\n\n" +
+                                    "numOfSample : " + numOfSample + "\n" +
+                                    "bucketAddrSpace : " + bucketAddrSpace + "\n" +
+                                    "bucketSize : " + bucketSize + "\n" +
+                                    "maxNumofKicks : " + maxNumofKicks + "\n" +
+                                    "maxSampleByteLen : " + maxSampleByteLen + "\n");
+                            test = new Test(numOfSample, bucketAddrSpace, bucketSize, maxNumofKicks, maxSampleByteLen);
+                            test.run();
+                        }
     }
 }
 
@@ -27,10 +41,10 @@ final class CONFIGS {
 }
 
 class Cuckoo {
-    Bucket[] buckets = new Bucket[(int) Math.pow(2, CONFIGS.bucketAddressSpace)];
-    int count = 0;
+    Bucket[] buckets;
 
     public Cuckoo() {
+        buckets = new Bucket[(int) Math.pow(2, CONFIGS.bucketAddressSpace)];
         for (int i = 0; i < buckets.length; i++) {
             buckets[i] = new Bucket();
         }
@@ -197,10 +211,19 @@ class HashTest {
 }
 
 class Test {
+    byte[][] mainData;
     byte[][] result;
     Cuckoo cuckoo;
+    boolean firstTime = true;
 
-    public Test() {
+    public Test(int numOfSamples, int bucketAddressSpace, int bucketSize, int maxNumKicks, int maxSampleBytesLen) {
+        CONFIGS.bucketAddressSpace = bucketAddressSpace;
+        CONFIGS.bucketFullOne = (int) Math.pow(2, bucketAddressSpace) - 1;
+        CONFIGS.bucketSize = bucketSize;
+        CONFIGS.maxNumKicks = maxNumKicks;
+        CONFIGS.numOfSamples = numOfSamples;
+        CONFIGS.maxSampleBytesLen = maxSampleBytesLen;
+
         cuckoo = new Cuckoo();
     }
 
@@ -208,33 +231,28 @@ class Test {
         int n = 1000000;
         result = new byte[CONFIGS.numOfSamples][];
         File file = new File("./sample.txt");
-        if (!file.exists()) {
+        if (firstTime) {
+            mainData = new byte[n][];
             try {
                 System.out.println("generating data ...");
-                file.createNewFile();
-                PrintWriter out = new PrintWriter(file.getPath());
                 for (int i = 0; i < n; i++) {
                     int lenOfByteArr = getRandomWithinRange(3, CONFIGS.maxSampleBytesLen);
-                    out.println(RandomString.getAlphaNumericString(lenOfByteArr));
+                    byte[] data = RandomString.getAlphaNumericString(lenOfByteArr).getBytes("ASCII");
+                    mainData[i] = data;
                 }
-                out.flush();
             } catch (IOException e) {
                 System.out.println("An error occurred!");
                 e.printStackTrace();
             }
         }
 
-        try {
-            System.out.println("reading data ...");
-            Scanner scanner = new Scanner(file);
-            for (int k = 0; k < CONFIGS.numOfSamples; k++) {
-                byte[] data = scanner.nextLine().getBytes("ASCII");
-                result[k] = data;
-            }
-        } catch (IOException e) {
-            System.out.println("An error occurred!");
-            e.printStackTrace();
-        }
+        System.out.println("reading data ...");
+        if (CONFIGS.numOfSamples >= 0) System.arraycopy(mainData, 0, result, 0, CONFIGS.numOfSamples);
+        System.out.println(result.length);
+        System.out.println(Arrays.toString(result[1003]));
+        System.out.println(Arrays.toString(result[1093]));
+        System.out.println(Arrays.toString(result[1503]));
+
 
     }
 
@@ -244,7 +262,8 @@ class Test {
             boolean isSuccessful = cuckoo.insert(data);
             if (!isSuccessful) {
                 System.out.println("insert was not successful");
-                System.exit(1);
+                return;
+//                System.exit(1);
             }
 //            cuckoo.printBuckets();
         }
@@ -258,7 +277,7 @@ class Test {
             boolean isSuccessful = cuckoo.lookup(data);
             if (!isSuccessful) {
                 System.out.println("lookup was not successful");
-                System.exit(1);
+                return;
             }
 //            cuckoo.printBuckets();
         }
@@ -272,7 +291,7 @@ class Test {
             boolean isSuccessful = cuckoo.remove(data);
             if (!isSuccessful) {
                 System.out.println("remove was not successful");
-                System.exit(1);
+                return;
             }
 //            cuckoo.printBuckets();
         }
@@ -284,6 +303,13 @@ class Test {
         for (byte[] bytes : result) {
             System.out.println(Arrays.toString(bytes));
         }
+    }
+
+    public void run() {
+        this.getData();
+        this.insertAll();
+        this.lookupAll();
+        this.removeAll();
     }
 
     private int getRandomWithinRange(int min, int max) {
