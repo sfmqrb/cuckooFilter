@@ -62,6 +62,16 @@ class Cuckoo {
         return reinsert(newFingerprint, remainTrial - 1, otherIndex);
     }
 
+    private boolean remove(byte[] data) {
+        byte fingerprint = Hash.getFingerPrint(data);
+        int i1 = Hash.getInitialIndex(data);
+        if (buckets[i1].remove(fingerprint)) {
+            return true;
+        }
+        int i2 = Hash.getOtherIndex(fingerprint, i1);
+        return buckets[i2].remove(fingerprint);
+    }
+
     private int getRandomWithinRange(int min, int max) {
         return (int) Math.floor(Math.random() * (max - min + 1) + min);
     }
