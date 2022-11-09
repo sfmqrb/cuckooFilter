@@ -1,5 +1,6 @@
 package cuckoo;
 
+import java.awt.*;
 import java.util.Arrays;
 import java.io.*;
 import java.util.Scanner;
@@ -209,19 +210,12 @@ class Test {
         result = new byte[n][];
         File file = new File("./sample.txt");
         if (!file.exists()) {
-            for (int i = 0; i < n; i++) {
-                int lenOfByteArr = getRandomWithinRange(3, CONFIGS.maxSampleBytesLen);
-                result[i] = new byte[lenOfByteArr];
-                for (int j = 0; j < lenOfByteArr; j++) {
-                    result[i][j] = (byte) getRandomWithinRange(-128, 127);
-                }
-            }
-
             try {
                 file.createNewFile();
                 PrintWriter out = new PrintWriter(file.getPath());
                 for (byte[] data: result) {
-                    out.println(data.toString());
+                    int lenOfByteArr = getRandomWithinRange(3, CONFIGS.maxSampleBytesLen);
+                    out.println(RandomString.getAlphaNumericString(lenOfByteArr));
                 }
                 out.flush();
             } catch (IOException e) {
@@ -232,7 +226,7 @@ class Test {
             try {
                 Scanner scanner = new Scanner(file);
                 for (int k = 0; k < n; k++) {
-                    byte[] data = scanner.nextLine().getBytes();
+                    byte[] data = scanner.nextLine().getBytes("ASCII");
                     System.out.println(Arrays.toString(data));
                 }
             } catch (IOException e) {
@@ -292,5 +286,27 @@ class Test {
 
     private int getRandomWithinRange(int min, int max) {
         return (int) Math.floor(Math.random() * (max - min + 1) + min);
+    }
+}
+
+class RandomString {
+    static String getAlphaNumericString(int n)
+    {
+        String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                + "0123456789"
+                + "abcdefghijklmnopqrstuvxyz";
+
+        StringBuilder sb = new StringBuilder(n);
+
+        for (int i = 0; i < n; i++) {
+            int index
+                    = (int)(AlphaNumericString.length()
+                    * Math.random());
+
+            sb.append(AlphaNumericString
+                    .charAt(index));
+        }
+
+        return sb.toString();
     }
 }
